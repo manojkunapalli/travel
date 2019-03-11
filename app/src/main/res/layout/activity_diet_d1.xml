@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.diet_d1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="11dp"
+        >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="377dp"
+        android:layout_height="252dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/d1"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="You Will Need"
+        android:textColor="@color/colorAccentt"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <TextView
+        android:id="@+id/textView94"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="A variety of fruit – apples, oranges, watermelon, kiwi, and papaya are some of your best options."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/textView95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="What You Have To Do "
+        android:textColor="@color/colorAccentt"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView94"
+        app:layout_constraintVertical_bias="0.043" />
+
+        <TextView
+            android:id="@+id/textView96"
+            android:layout_width="347dp"
+            android:layout_height="171dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="The first day of the diet allows you to eat as many fruits as you like. There are no restrictions on when you can eat. Watermelons and cantaloupes are the recommended fruits as they are high in fiber. Other healthy choices include papaya, apples, and oranges. You must also consume 8 to 12 glasses of water during the day. At no point is it advised to starve. If you feel hungry, you can grab some fruits and satisfy your craving."
+            android:textAlignment="viewStart"
+            android:layout_marginRight="20dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView94"
+            app:layout_constraintVertical_bias="0.363" />
+
+        <TextView
+            android:id="@+id/textView97"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Foods To Avoid"
+            android:textColor="@color/colorAccentt"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textView98"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            android:text="Vegetables – Avoid eating any veggies on this day.\n
+Fruits – Banana\n
+Protein – Avoid eating any protein source such as meat, eggs, fish, beans, lentils, and mushrooms.\n
+Fats and Oils – Lard, butter, margarine, and safflower oil.\n
+Carbs – Avoid all carb rich foods, including brown rice.\n
+Dairy – Full fat milk, full fat yogurt, frozen yogurt, ice cream, and cheese.\n
+Beverages – Alcohol, soda, sweetened drinks, milkshakes, vegetable juices or smoothies, and packaged fruit juices." />
+
+        <TextView
+            android:id="@+id/textView101"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Substitutes "
+            android:textColor="@color/colorAccentt"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            android:text="Apple – Orange\n
+Cantaloupe – Cucumber\n
+Watermelon – Honeydew melon or cucumber\n
+Orange – Grapefruit or peach\n
+Guava – Green apple" />
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView105"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            android:text="Exercises "
+            android:textColor="@color/colorAccentt"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView106"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView108"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            android:text="Since you will be on only fruits and water, do not perform rigorous exercises. You may do these exercises early in the morning or in the evening after office or school. Here is your customized exercise plan for Day 1." />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView109"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            android:text="Arm circles – 1 set of 10 reps (clockwise and anticlockwise)\n
+Wrist circles – 1 set of 10 reps (clockwise and anticlockwise)\n
+Neck rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Ankle rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Leg rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Waist rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+
+Spot Jogging – 5-10 minutes\n
+Yoga asanas (stretching)"
+            />
+
+        <TextView
+            android:id="@+id/textView110"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How You Will Feel By The End Of Day 1 "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            android:textColor="@color/colorAccent"
+
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView113"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView114"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+
+            android:text="Day 1 will be comparatively easy since the monotony of eating fruits and veggies has not crept in yet. If you stick to the diet plan and exercise routine, you will feel active, energetic, and great about yourself by the end of Day 1. \n\n Ready for Day 2?" />
+
+        <TextView
+            android:id="@+id/textView115"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

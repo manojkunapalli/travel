@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainnn"
+    tools:context="com.bhargava.travel.modified_login">
+
+    <RelativeLayout
+        android:id="@+id/home_lay"
+        android:layout_width="235dp"
+        android:layout_height="350dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="275dp">
+
+        <ImageButton
+            android:id="@+id/loginbut"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="96dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/loginn"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="200dp" />
+
+        <ImageButton
+            android:id="@+id/regi"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/loginbut"
+            android:layout_below="@+id/loginbut"
+            android:layout_marginTop="44dp"
+            android:background="@android:color/transparent"
+            android:backgroundTint="@android:color/transparent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/register" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

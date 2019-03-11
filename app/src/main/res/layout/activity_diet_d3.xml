@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.diet_d3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="11dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="377dp"
+                android:layout_height="252dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/d3"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="You Will Need"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.432" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="A combination of fruits and vegetables. You could stick to the fruits and vegetables consumed during the first two days. The only foods to avoid are potatoes and bananas."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.123" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="What You Have To Do "
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.098"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.043" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="347dp"
+                android:layout_height="124dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="On the third day, your body would have almost adjusted to the new diet. After a day of eating just vegetables, fruits will bring a welcome break. It will also combine the benefits of both fruits and vegetables, and provide you with high fiber, nutrient, and protein."
+                android:textAlignment="viewStart"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foods To Avoid"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Vegetables – Avoid all veggies on this day.\n
+Fruits – Avoid eating bananas.\n
+Protein – Avoid eating any protein source such as meat, eggs, fish, beans, lentils, and mushrooms.\n
+Fats and Oils – Lard, butter, margarine, and safflower oil.\n
+Carbs – Avoid all carb-rich foods, including brown rice.\n
+Dairy – Full fat milk, full fat yogurt, frozen yogurt, ice cream, and cheese.\n
+Beverages – Alcohol, soda, sweetened drinks, vegetable smoothies or juices, and packaged fruit juices." />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Substitutes "
+                android:textColor="@color/colorAccentt"
+                android:layout_marginLeft="10dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Cantaloupe – Watermelon\n
+Apple – Orange\n
+Pear – Plum\n
+Pineapple – Peach\n
+Cucumber – Kiwi\n
+Carrot – Bok choy or beetroot\n
+Lettuce – Chinese cabbage\n
+Orange – Grapefruit or kiwi\n
+Broccoli – Cauliflower\n
+Beetroot – Carrot" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Exercises "
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="On this day, start with a warm up and move on to some energy expending exercises. You may do these exercises early in the morning or in the evening after office or school. Here is the list of the exercises that will keep you feeling energetic all day long."/>
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Arms circles – 1 set of 10 reps (clockwise and anticlockwise)\n
+Wrist rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Shoulder rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Neck rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Ankle rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Leg rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Squats – 2 sets of 5 reps\n
+Lunges – 2 sets of 5 reps\n
+Surya Namaskar (click here to see the steps to perform Surya Namaskar).\n
+Face exercises"
+                />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How You Will Feel By The End Of Day 3 "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:textColor="@color/colorAccent"
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Day 3 will make you feel better again as you will get a good amount of fruit sugar from the fruits and a little amount of carbs from the veggies. Exercising and staying active will also make you feel great.
+\n\nTo keep it real, Day 4 is challenging but that’s the whole point here. Get ready for Day 4."/>
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

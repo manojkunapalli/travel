@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.diet_recipe">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="11dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="377dp"
+                android:layout_height="252dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/recepi_in"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text=""
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.432" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="The GM diet soup is a staple of the diet. It can be consumed in unlimited quantities on any day and ensures you don’t go hungry anytime. You can prepare a large quantity of it and simply reheat it anytime during the week."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.123" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Ingredients"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.098"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.043" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="347dp"
+                android:layout_height="171dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Six large onions\n
+Three medium-sized tomatoes\n
+One cabbage\n
+Two green peppers\n
+A bunch of celery\n
+Half a liter of water"
+                android:textAlignment="viewStart"
+                android:layout_marginRight="20dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Method of Preparation"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="1.Chop up the onions and peppers. In a pot, sauté them in olive oil till they turn mild brown.
+\n2.Next, cut up the tomatoes, celery, and cabbage, and add them to the pot along with the water.
+\n3.The soup takes about 60 minutes to prepare. The vegetables will need to be boiled, then left to simmer. Season it with pepper and salt to your liking and enjoy a bowl of delicious soup\n
+You may add a seasoning of your choice to make different variations of this soup. Follow the “Foods To Avoid” list to avoid eating unhealthy foods. For convenience, here is the list of beverages that you are allowed to drink while on the GM diet.
+"
+                />
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What You’re Allowed To Drink "
+                android:textColor="@color/colorAccentt"
+                android:layout_marginLeft="10dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Water should be your main source of hydration. Make sure you’re reaching for your bottle of water throughout the day. You can squeeze a few drops of lemon or lime juice into the bottle to give it some additional flavor.\n
+Club Soda is a healthier alternative to the sugar-rich colas.\n
+If you’re addicted to your morning caffeine hit, make sure you have your coffee without any cream, milk, or sugar.\n
+If you prefer tea to coffee, make sure it is either green or herbal.\n
+Let’s quickly recapitulate the benefits of the GM diet to help you decide whether or not to take a step forward to become a healthier you" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Benefits Of The GM Diet "
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="1.Quick weight loss – The biggest benefit of GM diet is that it helps you lose weight fast! Most people drop between 3 kg to 6 kg in just one week.
+\n2.Detoxification – The diet helps flush out toxins from your system. Because the diet is full of fruits, vegetables, and lots of water, it ensures your system is completely cleansed after day 7.
+\n3.Time Span – Because the diet is just seven days long and ensures fast weight loss, you are more likely to stick to it"
+                />
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Diet"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:textColor="@color/colorAccent"
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="1.Is low on salt and sugar
+\n2.Is high in complex carbohydrates and fiber\n
+3.Reduces serum cholesterol levels\n
+You may not make the most of the GM diet because of following wrong practices. Take a look at the next section to find out what you should do and what you shouldn’t.
+"
+                />
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

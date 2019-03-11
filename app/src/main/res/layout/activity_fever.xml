@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.fever">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fever"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text=" 1.feeling cold when nobody else does\n
+2.shivering\n
+3.lack of appetite\n
+4.dehydration\n
+5.depression\n
+6.sleepiness\n
+7.sweating\n
+8.problems concentrating" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Causes"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:text=" 1.overexposure of skin to sunlight\n
+2.silicosis, a type of lung disease\n
+3.amphetamine abuse\n
+4.heat stroke\n
+5.an infection, such as strep throat, flu, chickenpox" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Severity"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text=" 1.low grade, from 100.5–102.1°F or 38.1–39°C\n
+2.Moderate, from 102.2–104.0°F or 39.1–40°C\n
+3.high, from 104.1–106.0°F to or 40.1-41.1°C\n
+4.hyperpyrexia, above 106.0°F or 41.1°C" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_marginLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1.paracetamol\n
+2.antibiotic\n
+3.Non-steroidal anti-inflammatory drugs\n
+4.anticonvulsant" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prevention"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_marginLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="      Hygiene — fevers are commonly caused by bacterial or viral infections. Good hygiene practices help reduce the risk of developing an infection. This includes hand-washing before and after meals, and after going to the toilet.\n
+        A person with a fever caused by an infection should have as little contact as possible with other people, to prevent the infection from spreading. Whoever is caring for the patient should regularly wash their hands with warm soap and water." />
+        </LinearLayout>
+
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

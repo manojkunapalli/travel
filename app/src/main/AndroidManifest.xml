@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bhargava.travel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="com.example.pavan.maps_hospitals.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Dr Next"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity android:name=".login1" />
+        <activity android:name=".menu" />
+        <activity android:name=".emergencycall" />
+        <activity android:name=".firstaid" />
+        <activity android:name=".Bronchitis_info" />
+        <activity android:name=".Cold_info" />
+        <activity android:name=".Cough_info" />
+        <activity android:name=".Fever_info" />
+        <activity android:name=".headache_info" />
+        <activity android:name=".jointpains_info" />
+        <activity android:name=".muscleache_info" />
+        <activity android:name=".pnemonia_info" />
+        <activity android:name=".sorethroat_info" />
+        <activity android:name=".share" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".MapsActivity2"
+            android:label="@string/title_activity_maps2" />
+        <activity android:name=".modified_login" />
+        <activity android:name=".d_history" />
+        <activity android:name=".fever" />
+        <activity android:name=".musclepain" />
+        <activity android:name=".cold" />
+        <activity android:name=".chickenpox" />
+        <activity android:name=".cough" />
+        <activity android:name=".badsmell" />
+        <activity android:name=".backpain" />
+        <activity android:name=".notify" />
+        <activity android:name=".diet_main" />
+        <activity android:name=".diet_about" />
+        <activity android:name=".diet_d1" />
+        <activity android:name=".diet_d2" />
+        <activity android:name=".diet_d3" />
+        <activity android:name=".diet_d4" />
+        <activity android:name=".diet_d5" />
+        <activity android:name=".diet_d6" />
+        <activity android:name=".deit_d7" />
+        <activity android:name=".diet_recipe" />
+        <activity android:name=".sleeping" />
+        <activity android:name=".info"></activity>
+    </application>
+
+    </manifest>

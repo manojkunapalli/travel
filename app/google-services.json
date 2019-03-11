@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813053966674",
+    "firebase_url": "https://amwell-367e9.firebaseio.com",
+    "project_id": "amwell-367e9",
+    "storage_bucket": "amwell-367e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813053966674:android:973dbc5c92513a21",
+        "android_client_info": {
+          "package_name": "com.bhargava.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813053966674-o19flg3l3supfdn4akhnq34ba73v13ud.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bhargava.travel",
+            "certificate_hash": "6b1517b45bc02be55e604c7d5ee70ec47f32ce59"
+          }
+        },
+        {
+          "client_id": "813053966674-vdfpf20kv79fp56ff7235aj9g7ckdlgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7bTQh665BHbX7nwTsnseWgdD6bcb_STA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813053966674-vdfpf20kv79fp56ff7235aj9g7ckdlgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

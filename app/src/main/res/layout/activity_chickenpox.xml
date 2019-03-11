@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.chickenpox">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chicken pox"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text=" 1.A general feeling of being unwell (malaise)\n
+2.Fever, which is usually worse in adults than children\n
+3.Aching muscles\n
+4.Loss of appetite\n
+5.In some cases, a feeling of nausea\n
+6.Rashs\n
+7.The skin around the spots or blisters becomes painful and red\n
+8.There are breathing difficulties"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Causes"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="100dp"
+                android:text=" Chickenpox is a virus infection.Before chickenpox vaccine became routine in the U.S., chickenpox was a common childhood disease caused by the chickenpox virus, which is more formally called varicella-zoster virus (VZV).\n
+       Today, it still occurs in populations that are not routinely vaccinated. Varicella-zoster virus is often categorized with the other common so-called viral exanthems (viral rashes) such as measles (rubeola), German measles (rubella), fifth disease (parvovirus B19), mumps virus, and roseola (human herpesvirus 6), but these viruses are unrelated except for their tendency to cause rashes." />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Risk factors"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text=" 1. not having immunity against chickenpox by infection or vaccination\n
+2.exposure to a person with chickenpox or shingles"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_marginLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  1.Pain or fever: Tylenol (acetaminophen) may help with symptoms of high temperature and pain. It is important to follow the instructions provided by the manufacturer. Aspirin containing products should NOT be used for chickenpox as this can lead to complications. Acetaminophen (Tylenol) can be used at any time during pregnancy.\n
+2.Avoiding dehydration: It is important to drink plenty of fluids, preferably water, to prevent dehydration. Some doctors recommend sugar-free popsicles or Pedialyte for children who are not drinking enough.\n
+3.Mouth soreness: Sugar-free popsicles help ease symptoms of soreness if there are spots in the mouth. Salty or spicy foods should be avoided. If chewing is painful, soup might be a good option, but it should not be too hot.\n
+4.Itchiness: ltchiness can become severe, but it is important to minimize scratching to reduce the risk of scarring. "/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:textColor="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prevention"
+                android:textSize="24sp"/>
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_marginLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" A vaccine is available for varicella. For children, 2 doses of the varicella vaccine are given, one at 12 to 15 months and one at age 4 to 6 years. These are 90 percent effective at preventing chickenpox."/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

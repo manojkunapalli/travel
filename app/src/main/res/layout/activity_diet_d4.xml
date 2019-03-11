@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.diet_d4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="11dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="377dp"
+                android:layout_height="252dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/d4"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="You Will Need"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.432" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="Eight bananas and four glasses of milk."
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.123" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="What You Have To Do "
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.098"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.043" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="347dp"
+                android:layout_height="171dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="The fruit you’ve been asked to avoid is finally permitted. It is advised to eat eight bananas over the course of the day. Distribute them among your meal and snack times. Also, consume a big glass of milk, thrice, once each at breakfast, lunch, and dinner. If this gets monotonous, you can also include a bowl of soup.
+\n
+Sounds easy, but let’s not leave room for any error. Here is the Day 4 diet schedule."
+                android:textAlignment="viewStart"
+                android:layout_marginRight="20dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Foods To Avoid"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Vegetables – Potato and sweet potato.\n
+Fruits – Avoid eating all fruits except banana.\n
+Protein – Avoid eating any protein source such as meat, eggs, fish, beans, lentils, and mushrooms.\n
+Fats and Oils – Lard, butter, margarine, and safflower oil.\n
+Carbs – Avoid all carb-rich foods, including brown rice.\n
+Dairy – Full fat milk, full fat yogurt, frozen yogurt, ice cream, and cheese.\n
+Beverages – Alcohol, soda, sweetened drinks, vegetable smoothies or juices, and packaged fruit juices." />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Substitutes "
+                android:textColor="@color/colorAccentt"
+                android:layout_marginLeft="10dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Banana – Fig\n
+Milk – Soy milk" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Exercises "
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="All those calories from the bananas should be expended so that the energy from the bananas don’t get stored as fat. You may do these exercises early in the morning or in the evening after office or school. Here is the list of exercises that you should do on Day 4."/>
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Arms circles – 1 set of 10 reps (clockwise and anticlockwise)\n
+Wrist rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Shoulder rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Neck rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Ankle rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Leg rotation – 1 set of 10 reps (clockwise and anticlockwise)\n
+Spot jogging – 7-10 minutes\n
+Squats – 2 sets of 5 reps\n
+Pilates – 15-20 seconds\n
+Bicycle crunches – 2 sets of 5 reps\n
+Face exercises"
+                />
+
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How You Will Feel By The End Of Day 4 "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:textColor="@color/colorAccent"
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="The monotony of eating bananas and milk can make you feel demotivated. You may also experience mood swings. However, drinking enough water, working out, and talking to people who have successfully lost weight by following the GM diet will keep you going.
+\n\n
+Great job! You have successfully completed Day 4. Now, let’s move on to day 5."/>
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

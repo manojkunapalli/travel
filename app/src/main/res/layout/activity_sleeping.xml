@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.sleeping">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="11dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="377dp"
+                android:layout_height="252dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/sleepp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="How Much Sleep Does a Person Need?"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.071"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.432" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="The short answer: adults need 6 to 9 hours per night. Around 7 to 7.5 hours of actual sleep (not counting time falling asleep and getting out bed) appears to be optimal for most people.\n
+The long answer: it depends. The amount of sleep each person needs depends on many factors, including age, health, recent physical exertion, and mental activity. There is genetic influence, too. Some people just need more sleep than others and this runs in families.
+"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2"
+                app:layout_constraintVertical_bias="0.123" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="What Is the Recommended Amount of Sleep?"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.098"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.043" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="347dp"
+                android:layout_height="171dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="The federal government’s Healthy People initiative has established a goal of getting more people to get adequate sleep on a regular basis. Their recommended amount of sleep is 8 hours for people 18 to 21 and 7 hours per night for adults over 21. According to their numbers, 69.6% of the population meets this goal, and the government wants to raise this to 70.9% by 2020."
+                android:textAlignment="viewStart"
+                android:layout_marginRight="20dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.49"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView94"
+                app:layout_constraintVertical_bias="0.363" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Average Amount of Sleep by Age"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="The amount and type of sleep needed changes from childhood to adulthood.
+
+"/>
+
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="377dp"
+                android:layout_height="147dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/sleeptime"
+                tools:ignore="MissingConstraints" />
+
+
+
+
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How much sleep do babies need? "
+                android:textColor="@color/colorAccentt"
+                android:layout_marginLeft="10dp"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Infants sleep 16 to 20 hours each day. By age four, the amount of sleep required decreases to 12 hours. This sleep is spread out throughout the day. Once a child is six, they typically get most of their sleep during the night." />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="How much sleep does a teenager need? "
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp" />
+
+
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="As children age, they require less sleep. By the time they reach adolescence, teenagers only need about 9 hours on average."/>
+            <TextView
+                android:id="@+id/textView111"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textVie105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="How much sleep does the average adult need?"
+                android:textColor="@color/colorAccentt"
+                android:textSize="24sp" />
+            <TextView
+                android:id="@+id/textView110"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="For most adults, 7 to 8 hours a night appears to be the best amount of sleep, although some people may need as few as 5 hours or as many as 10 hours of sleep each day."/>
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How much sleep do seniors need? "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:textColor="@color/colorAccent"
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="Sometimes you’ll hear that you need less sleep as you get older, but that is incorrect. A 2014 study revealed that seniors actually require similar amounts of sleep as younger adults, as much as 9 hours, although they only get 7.5 hours on average. The issue is that with age, the neurons responsible for regulating our sleep patterns slowly die off. This causes seniors to wake up even if they’re not fully rested, and to suffer from insomnia that makes it difficult to fall asleep in the first place."/>
+
+
+            <TextView
+                android:id="@+id/textVie112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signs You Are Getting Too Much Sleep
+ "
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:textColor="@color/colorAccent"
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tetView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textiew114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="It takes you more than 1 hour to fall asleep\n
+You regularly wake up before your alarm, but still feel rested during the day\n
+You have low energy during the day\n
+You feel depressed, and may have hypersomnia\n
+You experience weight gain from lack of activity"/>
+
+
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:id="@+id/textie112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signs You Aren’t Getting Enough Sleep"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:textColor="@color/colorAccent"
+
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tetViw113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/texiew114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+
+                android:text="You wake up during the night from stress, a bad dream, or a sleep disorder\n
+You sleep past your normal wakeup time and experience post-sleep inertia aka worn-out syndrome\n
+You’re moody and easily irritable\n
+You experience weight gain\n
+You have daytime drowsiness\n
+You notice yourself forgetting things more often, or performing poorly"/>
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

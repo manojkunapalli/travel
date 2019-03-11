@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bhargava.travel.musclepain">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muscle Pain"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Symptoms"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text=" muscle weakness"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Causes"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"
+                />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="100dp"
+                android:layout_height="wrap_content"
+                android:text=" 1.Muscle cramp\n
+2.Medications, especially the cholesterol medications known as statins\n
+3.Repetitive strain injuries\n
+4.Sprains and strains\n
+5.Dermatomyositis\n"/>
+
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Treatment"
+                android:textSize="24sp"
+                android:textColor="@color/colorAccent"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_marginLeft="35dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 1.If pain relates to an injury or overuse of the muscle or joint, stop the activity and rest\n
+2.Apply an ice pack or ice compress to the area. If you don’t have the appropriate device or equipment, a convenient way to achieve this is with a bag of frozen peas\n
+3.You may wish to use a pain-killer to help you cope with the pain\n
+4.Alternatively, you might wish to use a herbal remedy such as Arnica gel which has the benefit of also helping resolve any bruising associated with the injury. For general or widespread muscle pain, Devil’s claw can be taken internally.\n
+5.If your muscle pain is due to flu, you may benefit from using a herbal remedy such as echinacea"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
